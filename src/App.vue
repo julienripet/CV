@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app class="fullPage">
+    <v-content>
+      <Header/>
+      <ul>
+        <li v-for="(mySection,key, index) in cv" :key="index">
+          <h2>{{key}}</h2>
+          <vSection :mySection={mySection} />
+        </li>
+      </ul>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header'
+import section from './components/Section'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    HelloWorld
-  }
+    Header,
+    vSection: section,
+  },
+  data () {
+    return {
+      cv:this.$globals.cv
+    }
+  },
+  methods:{
+
+    show : function(){
+      console.log(this.cv)
+    }
+  },
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+  li{list-style: none;}
+  h2{
+    text-transform: capitalize;
+  }
+  .fullPage{
+    max-width: 950px;
+    margin: auto;
+    background: grey;
+  }
 </style>
