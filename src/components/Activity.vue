@@ -1,5 +1,5 @@
 <template>
-    <v-container grid>
+    <v-container class="singleActivity" grid>
         <v-layout row wrap>
             <v-flex xs12 md2>
                 <h3>{{activity.date}}</h3>
@@ -27,6 +27,13 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+h3{
+    text-decoration: underline;
+    color: rgb(23, 108, 179);
+}
+    .singleActivity{
+        padding-top:0 !important;
+        padding-bottom:0 !important;
+    }
 </style>

@@ -20,15 +20,12 @@ export default {
             
         }
     },
-    methods:{
-        show:()=>{console.log(this.mySection)}
-
-    }
 }
 </script>
 
 <style scoped>
 li{
     list-style: none;
+    padding:0;
 }
 </style>

@@ -44,6 +44,6 @@ export default {
   .fullPage{
     max-width: 950px;
     margin: auto;
-    background: grey;
+    background: rgb(236, 236, 236);
   }
 </style>
