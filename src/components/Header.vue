@@ -20,7 +20,7 @@
                 </v-card-title>
             </v-flex>
             <v-flex offset-xs1 xs10 justify-center md5>
-                <v-img :src="require('@/assets/ProfilePic.webp')" max-height="250" contain/>
+                <v-img src="https://i.imgur.com/Fn7u0wB.jpg" max-height="250" contain/>
             </v-flex>
         </v-layout>
     </v-container>
