@@ -26,13 +26,7 @@ export default {
     return {
       cv:this.$globals.cv
     }
-  },
-  methods:{
-
-    show : function(){
-      console.log(this.cv)
-    }
-  },
+  }
 }
 </script>
 

@@ -20,7 +20,7 @@
                 </v-card-title>
             </v-flex>
             <v-flex offset-xs1 xs10 justify-center md5>
-                <v-img src="/images/ProfilePic.webp" max-height="250" contain/>
+                <v-img :src="require('@/assets/ProfilePic.webp')" max-height="250" contain/>
             </v-flex>
         </v-layout>
     </v-container>
@@ -35,6 +35,7 @@ export default {
 <style scopped>
     address{
         text-align: center;
+        margin: auto;
         margin-top: 15px;
     }
     .myTitle{
