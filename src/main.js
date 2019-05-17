@@ -5,7 +5,7 @@ import App from './App.vue'
 Vue.config.productionTip = false
 
 Vue.prototype.$globals = {
-  cv:{
+  cvEng:{
     formations:{
       becode:{
         date:"2019-today",
@@ -30,7 +30,7 @@ Vue.prototype.$globals = {
     },
     experiences:{
       retail:{
-        date:"Septembre 2018",
+        date:"September 2018",
         title:"Worked in retail",
         description:"I have worked multiple times in retail, tagging clothes, making the inventory, etc.",
       },
@@ -42,19 +42,72 @@ Vue.prototype.$globals = {
       salonVin:{
         date:"July 2017",
         title:"Volunteering at the 'Salon des vins et fromages de Floreffe'. ",
-        description:"Volunteered in a three-day restaurant, specialy biult for the Salon. I was in charge of taking commands, serving dishes, cleaning up the tables and bringing the clients to their tables.",
+        description:"Volunteered in a three-day restaurant, specialy built for the Salon. I was in charge of taking commands, serving dishes, cleaning up the tables and bringing the clients to their tables.",
       }
     },
     others:{
       scoutism:{
         date:"2006-2012",
         title:"Scoutism",
-        description:"6 years of scoutism taught me to both obey my elders and lead the younger-ones, and to work and live in big groups",
+        description:"6 years of scoutism taught me to both obey my elders and lead the younger-ones, and to work and live in big groups.",
       },
       languages:{
         date:"Languages",
         title:"Languages",
         description:"I am fluent in both french (mother tongue) and english (C1, currently working to complete C2). I have learned dutch for 8years, but lack real-life practice, and I am currently self-learning Swedish, as a personnal interest.",
+      },
+    }
+  },
+  cvFr:{
+    formations:{
+      becode:{
+        date:"2019-aujourd'hui",
+        title:"Formation BeCode",
+        description:"Formation de 7 mois sur le web development, durant la quelle j'ai appris à utiliser Git (Github, GitKracken, etc), Node.js, Vue.js, React, PHP, les bases de données SQL, et bien d'autres.",
+      },
+      iesn:{
+        date:"2017-2018",
+        title:"Technologie des réseaux et sécurité à l'Henallux",
+        description:"1 An d'étude sur les réseaux et la programmation, durant la quelle j'ai appris à coder en C, et ai perfectionné mon HTML, Css et Javascript.",
+      },
+      heaj:{
+        date:"2015-2017",
+        title:"études d'infographie à l'HEAJ",
+        description:"2 ans d'études sur le graphisme, l'infographie, et la programmation, durant les quelles j'ai appris à utiliser Photoshop, Illustrator, Maya, Cinema4D, et le JavaScript.",
+      },
+      itn:{
+        date:"2013-2015",
+        title:"études sur les technologies informatiques à l'ITN",
+        description:"2 ans d'études sur la programmation, l'utilisation de la suite Microsoft Office (Word, Excel, PowerPoint, etc), à la fin des quelles j'ai obtenu mon diplome CESS. J'y ai appris les bases du VB.NET, aspx, html, css et SQL."
+      }
+    },
+    expériences:{
+      magasinier:{
+        date:"Septembre 2018",
+        title:"Magasinier",
+        description:"J'ai travaillé plusieures fois dans des magasins de vêtements, m'occupant de l'étiquettage, de la gestion d'inventaire, ect.",
+      },
+      kikk:{
+        date:"Novembre 2016/2017",
+        title:"Volontariat au KIKK, festival des arts digitaux.",
+        description:"J'ai été volontaire au KIKK 2 ans d'affilés. Je devrais aider les artistes, gérer et informer les visiteurs, organiser de petites équipes. Globalement, m'assurer que tout ce dont j'avais la responsabilité se passait bien.",
+      },
+      salonVin:{
+        date:"Juillet 2017",
+        title:"Volontariat au Salon des vins et fromages de Floreffe.",
+        description:"Volontariat dans un restaurant éphémère de 3 jours, spécialement monté pour le salon. J'étais en charge de prendre les commandes, servir les plats, débarasser les tables, servir les clients et les amener à leur table.",
+      }
+    },
+    others:{
+      scoutism:{
+        date:"2006-2012",
+        title:"Scoutisme",
+        description:"6 ans de scoutisme, qui m'ont auutant appris à gérer les plus jeunes qu'à obéir mes ainés, et à vivre et travailler en grands groupes.",
+      },
+      languages:{
+        date:"Langues",
+        title:"Langues",
+        description:"Je parle couramment le français (langue maternelle) et l'anglais (certification européenne C1). J'ai étudié le néerlandais 8 ans, mais je manque d'expérience réelle, et j'étudie le suédois en auto-didacte par intérêt personnel.",
       },
     }
   }

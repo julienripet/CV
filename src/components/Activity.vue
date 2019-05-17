@@ -36,4 +36,7 @@ h3{
         padding-top:0 !important;
         padding-bottom:0 !important;
     }
+    h2{
+        text-transform: capitalize;
+    }
 </style>

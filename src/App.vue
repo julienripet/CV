@@ -1,7 +1,7 @@
 <template>
   <v-app class="fullPage">
     <v-content>
-      <Header/>
+      <Header @changing="changeLanguage" />
       <ul>
         <li v-for="(mySection,key, index) in cv" :key="index">
           <h2>{{key}}</h2>
@@ -24,7 +24,16 @@ export default {
   },
   data () {
     return {
-      cv:this.$globals.cv
+      cv:this.$globals.cvFr
+    }
+  },
+  methods:{
+    changeLanguage(value){
+      if(value === "Eng"){
+        this.cv = this.$globals.cvEng
+      } else if(value === "Fr"){
+        this.cv = this.$globals.cvFr
+      }
     }
   }
 }
