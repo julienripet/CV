@@ -14,7 +14,7 @@
                     <span class="test display-2 myTitle font-weight-medium">Julien Ripet</span>
                     <address>
                         <p>
-                            18th of july 1996</br>
+                            18/07/1996</br>
                             4, Impasse Riquet </br>
                             31700, Blagnac</br>
                             +32 495/48 97 39</br>

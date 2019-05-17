@@ -63,34 +63,34 @@ Vue.prototype.$globals = {
       becode:{
         date:"2019-aujourd'hui",
         title:"Formation BeCode",
-        description:"Formation de 7 mois sur le web development, durant la quelle j'ai appris à utiliser Git (Github, GitKracken, etc), Node.js, Vue.js, React, PHP, les bases de données SQL, et bien d'autres.",
+        description:"Formation de 7 mois sur le web development, durant laquelle j'ai appris à utiliser Git (Github, GitKracken, etc), Node.js, Vue.js, React, PHP, les bases de données SQL, et bien d'autres.",
       },
       iesn:{
         date:"2017-2018",
         title:"Technologie des réseaux et sécurité à l'Henallux",
-        description:"1 An d'étude sur les réseaux et la programmation, durant la quelle j'ai appris à coder en C, et ai perfectionné mon HTML, Css et Javascript.",
+        description:"1 An d'études sur les réseaux et la programmation, durant laquelle j'ai appris à coder en C, et ai perfectionné mon HTML, Css et Javascript.",
       },
       heaj:{
         date:"2015-2017",
         title:"études d'infographie à l'HEAJ",
-        description:"2 ans d'études sur le graphisme, l'infographie, et la programmation, durant les quelles j'ai appris à utiliser Photoshop, Illustrator, Maya, Cinema4D, et le JavaScript.",
+        description:"2 ans d'études sur le graphisme, l'infographie, et la programmation, durant lesquelles j'ai appris à utiliser Photoshop, Illustrator, Maya, Cinema4D, et le JavaScript.",
       },
       itn:{
         date:"2013-2015",
         title:"études sur les technologies informatiques à l'ITN",
-        description:"2 ans d'études sur la programmation, l'utilisation de la suite Microsoft Office (Word, Excel, PowerPoint, etc), à la fin des quelles j'ai obtenu mon diplome CESS. J'y ai appris les bases du VB.NET, aspx, html, css et SQL."
+        description:"2 ans d'études sur la programmation, l'utilisation de la suite Microsoft Office (Word, Excel, PowerPoint, etc), à la fin desquelles j'ai obtenu mon diplome CESS. J'y ai appris les bases du VB.NET, aspx, html, css et SQL."
       }
     },
     expériences:{
       magasinier:{
         date:"Septembre 2018",
         title:"Magasinier",
-        description:"J'ai travaillé plusieures fois dans des magasins de vêtements, m'occupant de l'étiquettage, de la gestion d'inventaire, ect.",
+        description:"J'ai travaillé plusieurs fois dans des magasins de vêtements, m'occupant de l'étiquettage, de la gestion d'inventaire, ect.",
       },
       kikk:{
         date:"Novembre 2016/2017",
         title:"Volontariat au KIKK, festival des arts digitaux.",
-        description:"J'ai été volontaire au KIKK 2 ans d'affilés. Je devrais aider les artistes, gérer et informer les visiteurs, organiser de petites équipes. Globalement, m'assurer que tout ce dont j'avais la responsabilité se passait bien.",
+        description:"J'ai été volontaire au KIKK 2 ans d'affilées. Je devais aider les artistes, gérer et informer les visiteurs, organiser de petites équipes. Globalement, m'assurer que tout ce dont j'avais la responsabilité se passait bien.",
       },
       salonVin:{
         date:"Juillet 2017",
@@ -102,7 +102,7 @@ Vue.prototype.$globals = {
       scoutism:{
         date:"2006-2012",
         title:"Scoutisme",
-        description:"6 ans de scoutisme, qui m'ont auutant appris à gérer les plus jeunes qu'à obéir mes ainés, et à vivre et travailler en grands groupes.",
+        description:"6 ans de scoutisme, qui m'ont autant appris à gérer les plus jeunes qu'à obéir à mes ainés, et à vivre et travailler en grands groupes.",
       },
       languages:{
         date:"Langues",

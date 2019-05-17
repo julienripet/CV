@@ -24,7 +24,7 @@ export default {
   },
   data () {
     return {
-      cv:this.$globals.cvFr
+      cv:this.$globals.cvEng
     }
   },
   methods:{
